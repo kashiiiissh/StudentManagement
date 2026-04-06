@@ -19,8 +19,8 @@ This project is a console-based Student Management System developed using Java, 
 ## Database Setup
 
 Create the database and table in MySQL:
-
-```sql
+```
+sql
 CREATE DATABASE studentdb;
 
 USE studentdb;
@@ -31,7 +31,7 @@ CREATE TABLE students (
     course VARCHAR(100),
     marks DOUBLE
 );
-
+```
 ## How to Run
 
 1. Open the project folder in VS Code.
@@ -49,11 +49,13 @@ CREATE TABLE students (
 
 ```bash
 javac -cp ".;mysql-connector-j-9.5.0\mysql-connector-j-9.5.0.jar" *.java
-
+```
 5. Run the project using:
-Bash
+```bash
 java -cp ".;mysql-connector-j-9.5.0\mysql-connector-j-9.5.0.jar" Main
+```
 After running, the following menu will appear:
+```
 Plain text
 ===== Student Management System =====
 1. Add Student
@@ -63,4 +65,3 @@ Plain text
 5. Delete Student
 6. Exit
 Enter any option number to perform the required operation.
-
